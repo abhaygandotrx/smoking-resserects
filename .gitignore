@@ -1,0 +1,22 @@
+# Ignore virtual environment
+yoloenv/
+
+# Cache / temp folders
+__pycache__/
+*.log
+
+# Do not upload model weights (can be large)
+*.pt
+*.onnx
+
+# Do not upload ML trained artifacts
+*.pkl
+*.pickle
+*.joblib
+
+# System crap from Windows or macOS
+.DS_Store
+Thumbs.db
+
+# Ignore zip archives or datasets
+*.zip
